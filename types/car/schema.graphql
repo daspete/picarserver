@@ -1,0 +1,13 @@
+type Query {
+    CarSpeed: Int
+    CarSteer: Int
+    CarIsRunning: Boolean
+    CarIsInitialized: Boolean
+}
+
+type Mutation {
+    StartCar: Boolean
+    StopCar: Boolean
+    SetCarSpeed(speed: Int): Boolean
+    SetCarSteer(steer: Int): Boolean
+}
